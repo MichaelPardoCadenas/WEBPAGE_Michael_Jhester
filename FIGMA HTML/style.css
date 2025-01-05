@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    text-align: center;
+}
+
+
+ul>li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+ul>li>a:hover{
+    font-size: larger;
+    transition: 0.5s;
+}
+
+.mainpage-container{
+    background-image: url('./images/mountains.png');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.mainpage-img{
+    width: 400px;
+    height: 350px;
+}
+
+.aboutus{
+    background-color: #139EEA;
+}
+
+footer{
+    text-align: center;
+    background-color: #139EEA;
+    height: 30px;
+}
+
+.lightblue{
+    background-color: #92D8FF;
+    height: 20px;
+}
+
+.darkblue{
+    background-color: #1C597A;
+    height: 20px;
+}
+
+.contactus{
+    background-image: url('./images/bg.png');
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.our-img{
+    width: 100px;
+    border-radius: 50%;
+}
