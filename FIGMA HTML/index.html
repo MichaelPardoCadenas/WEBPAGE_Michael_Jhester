@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutus">About Us</a></li>
-                    <li><a href="#contactus">Contact Us</a></li>
-                    <li>Dark Mode</li>
-                </ul>
-            </nav>
+        <nav class="navbarB">
+            <ul>
+                <li><a href="/FIGMA HTML/index.html">Home</a></li>
+                <li><a href="/FIGMA HTML/contactus.html">Contact Us</a></li>
+                <li id="darkModeButton">Dark Mode</li>
+            </ul>
+        </nav>        
     </header>
     
     <div class="mainpage-container">
@@ -25,9 +25,6 @@
     <div class="lightblue">
     </div>
     <div class="aboutus" id="aboutus">
-        <div>
-            <h2>About Us</h2>
-        </div>
         <div>
             <img class="our-img" src="/images/jhester.jpg" alt="Jhester foto">
             <p>Jhester John Calma Galapon</p>
@@ -42,53 +39,59 @@
     <div class="darkblue">
 
     </div>
-    <div class="videogames">
-        <h2>Video games</h2>
-        <div>
-            <form action="videogames.html">
-                <input type="submit" value="More Information" />
-            </form>
-        </div>
-        <div>
-            <img class="mainpage-img" src="./images/vg1.jpg">
-            <img class="mainpage-img" src="./images/vg2.webp">
-            <p class="videogamesdesc">
-                Video games are interactive digital experiences that combine storytelling,
-                challenges, and creativity to entertain and engage players.
-                From immersive adventures to fast-paced action, they offer something for everyone,
-                bridging art and technology to create worlds where anything is possible.
-            </p>
-        </div>
-    </div>
-
-    <div class="retro">
-        <h2>Retro 8-bit Computers</h2>
-        <div>
-            <form action="retro.html">
-                <input type="submit" value="More Information" />
-            </form>
-        <div>
-            <img class="mainpage-img" src="images/retro1.jpg">
-            <img class="mainpage-img" src="images/retro2.jpg">
-            <p>
-                Retro 8-bit computers, like the Commodore 64, ZX Spectrum,
-                and Apple II, revolutionized home computing in the late 20th
-                century. Known for their iconic graphics, chiptune soundtracks,
-                and groundbreaking games, these machines were the birthplace
-                of modern computing and gaming culture. They remain
-                cherished by enthusiasts for their simplicity, innovation, and
-                nostalgic charm.
-            </p>
-        </div>
-    
-    <div class="contactus" id="contactus">
+    <br>
+    <section>
+        <article>
+            <div class="videogames">
+                <h2>VideoGames</h2>
+                <br>
+                <div>
+                    <button class="blue-button" onclick="window.location.href='videogames.html';">More Information</button>
+                </div>
+                <br>
+                <div class="content-article">
+                    <img class="mainpage-img" src="./images/vg1.jpg">
+                    <img class="mainpage-img" src="./images/vg2.webp">
+                    <p class="videogamesdesc">
+                        Video games are interactive digital experiences that combine storytelling,
+                        challenges, and creativity to entertain and engage players.
+                        From immersive adventures to fast-paced action, they offer something for everyone,
+                        bridging art and technology to create worlds where anything is possible.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <br>
+        <article>
+            <div class="retro">
+                <h2>Retro 8-bit Computers</h2>
+                <br>
+                <div>
+                    <button class="blue-button" onclick="window.location.href='retro.html';">More Information</button>
+                </div>
+                <br>
+                <div class="content-article">
+                    <img class="mainpage-img" src="images/retro1.jpg">
+                    <img class="mainpage-img" src="images/retro2.jpg">
+                    <p>
+                        Retro 8-bit computers, like the Commodore 64, ZX Spectrum,
+                        and Apple II, revolutionized home computing in the late 20th
+                        century. Known for their iconic graphics, chiptune soundtracks,
+                        and groundbreaking games, these machines were the birthplace
+                        of modern computing and gaming culture. They remain
+                        cherished by enthusiasts for their simplicity, innovation, and
+                        nostalgic charm.
+                    </p>
+            </div>
+        </article>
+    </section>
+      
+    <div id="contactusIndex">
         <h2>Join our Team now!</h2>
         <button class="button2">CONTACT US!</button>
-    </div>
-
-    <footer>
-        <p>©2024-JHESTER&MICHAEL</p>
-    </footer>
-
+    </div> 
+<footer>
+    <p>©2024-JHESTER&MICHAEL</p>
+</footer>
 </body>
 </html>
